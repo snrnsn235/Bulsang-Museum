@@ -1,0 +1,47 @@
+body {
+	margin : 0;
+	padding: 0;
+	background: #fff;
+	font-family: sans-serifl;
+	}
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 60%;
+  }
+  .image {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+.overlay {
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
